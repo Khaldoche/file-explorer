@@ -1,0 +1,128 @@
+body {
+    background: #101010;
+    color: #b0b0b0;
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0px 0 0px 0px;
+}
+
+li {
+    margin: 0;
+    padding: 0px 0 0px 20px;
+    list-style: none;
+}
+
+.dir,.dirdev {
+    background-repeat: no-repeat;
+    background-size: 13px 13px;      
+}
+
+.dir { 
+    background-image: url("/readFile?fileName=Img/ChevronDroit.png&typeFile=image/png");
+    background-position: 0px 1px;
+} 
+
+.dirdev {
+    background-image: url("/readFile?fileName=Img/ChevronBas.png&typeFile=image/png");
+    background-position: 0px 2px;
+}
+
+.nodir { 
+    background-image: url("/readFile?fileName=Img/DirMort.png&typeFile=image/png");
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    background-position: 0px 2px;
+    color: red;
+} 
+
+.file {
+    background: #101010;
+}
+
+div {
+    position: absolute;
+    width:   100%;
+    height:  16px;
+    left:    0px;
+    padding: 0px 5px 0px 0px;
+    z-index: 0;
+    background-color: #101010;
+    opacity: 0;
+}
+
+.divActive {
+    background-color: #2355ff;
+    color: yellow;
+    opacity: 0.4;
+}
+
+div:hover {
+    background-color: #a0a0a0;
+    opacity: 0.3;
+}
+
+.txt, .js,.c,.sql,.docx,.doc,.py,.xlsx,.xlsm,.xls,.pdf,.html,.css,.bat,.exe,.csv,.json,.png,.gif,.svg,.jpg,.jpeg {
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: left top; 
+}
+
+.txt{
+    background-image: url("/readFile?fileName=Img/txtFile.png&typeFile=image/png");
+}
+
+.js {
+    background-image: url("/readFile?fileName=Img/jsFile.png&typeFile=image/png");         
+}
+
+.json {
+    background-image: url("/readFile?fileName=Img/jsonFile.png&typeFile=image/png");         
+}
+
+.html {
+    background-image: url("/readFile?fileName=Img/htmlFile.png&typeFile=image/png");         
+}
+
+.pdf {
+    background-image: url("/readFile?fileName=Img/pdfFile.png&typeFile=image/png");         
+}
+
+.css {
+    background-image: url("/readFile?fileName=Img/cssFile.png&typeFile=image/png");         
+}
+
+.py {
+    background-image: url("/readFile?fileName=Img/pyFile.png&typeFile=image/png");         
+}
+
+.c {
+    background-image: url("/readFile?fileName=Img/cFile.png&typeFile=image/png");         
+}
+
+.sql {
+    background-image: url("/readFile?fileName=Img/sqlFile.png&typeFile=image/png");         
+}
+
+.csv {
+    background-image: url("/readFile?fileName=Img/cssFile.png&typeFile=image/png");         
+}
+
+.xlsx,.xlsm,.xls {
+    background-image: url("/readFile?fileName=Img/xlsxFile.png&typeFile=image/png");         
+}
+
+.docx,.doc {
+    background-image: url("/readFile?fileName=Img/docFile.png&typeFile=image/png");         
+}
+
+.exe,.bat {
+    background-image: url("/readFile?fileName=Img/exeFile.png&typeFile=image/png");         
+}
+
+.png,.gif,.svg,.jpg,.jpeg  {
+    background-image: url("/readFile?fileName=Img/imgFile.png&typeFile=image/png");         
+}

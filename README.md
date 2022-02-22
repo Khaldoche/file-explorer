@@ -35,5 +35,8 @@ Quand la page _FileExplorer.html_ est chargée, un "Timer" est déclenché pour 
   
 A ce niveau plus rien ne se passe et ce n'est que lorsque l'utilisateur clique pour développer les répertoires que leur contenu est chargé à partir du serveur voir la fonction cliente _getDir(dir, id, devDir)_ et celle serveur _/getDir_. Par souci d'efficacité et de simplicité du code il n'y a qu'un seul répertoire qui est chargé et inséré dans le DOM. Chaque répertoire visité est conservé dans un tableau pour pouvoir être rafraichi toutes les 3 secondes.  
 
-Le rafraichissement des répertoires se fait comme on l'a déjà vu toutes les 3 secondes et utilise une empriente md5 pour savoir si le répertoire à eu des changements (ajout, suppression ou renommage de fichier), si c'est le cas son contenu est renvoyé au client sinon le md5 est renvoyé pour que le client pour lui indiquer que le répertoire n'a pas changé.
+Le rafraichissement des répertoires se fait comme on l'a déjà vu toutes les 3 secondes et utilise une empriente md5 pour savoir si le répertoire à eu des changements (ajout, suppression ou renommage de fichier), si c'est le cas son contenu est renvoyé au client sinon le md5 est renvoyé pour que le client pour lui indiquer que le répertoire n'a pas changé.  
+
+#### Remarque :
+Un répertoire TestExt contient un ensmble de fichier vide avec tous les  types d'extensions gérées au sein de l'interface avec les icones correspondantes. 
 
